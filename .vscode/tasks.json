@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run all tests",
+            "dependsOn": "Build my application",
+            "type": "shell",
+            "command": "echo",
+            "args": [
+                "Running all tests:\\n",
+                "&& ./bin/ap3.out all 1",
+                "&& ./bin/ap3.out all 2",
+                "&& ./bin/ap3.out all 3",
+                "&& ./bin/ap3.out all 4",
+                "&& ./bin/ap3.out all 5",
+                "&& ./bin/ap3.out all 6",
+                "&& ./bin/ap3.out all 7",
+                "&& ./bin/ap3.out all 8",
+                "&& ./bin/ap3.out all 9",
+                "&& ./bin/ap3.out all 10",
+                "&& ./bin/ap3.out all 11",
+                "&& ./bin/ap3.out all 12",
+                "&& ./bin/ap3.out all 13",
+                "&& ./bin/ap3.out all 14",
+                "&& ./bin/ap3.out all 15",
+                "&& ./bin/ap3.out all 16",
+                "&& ./bin/ap3.out all 17",
+                "&& ./bin/ap3.out all 18",
+                "&& ./bin/ap3.out all 19",
+                "&& ./bin/ap3.out all 20"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}
